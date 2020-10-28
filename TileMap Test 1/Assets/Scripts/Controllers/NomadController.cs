@@ -34,21 +34,6 @@ namespace Nomads.Entities.Controllers{
                         entity_RigidBody.velocity = Vector2.SmoothDamp(entity_RigidBody.velocity, targetVelocity, ref CurrentVelocity, 1 / AccelerationSpeed);
                     }
                 }
-
-                if(isGrounded)
-                {
-                    //if(FacingRight)
-                    //{
-                    //    Collider2D[] colliders = Physics2D.OverlapCircleAll(RightTransform.position, GroundCheckRadius);
-                    //    for (int i = 0; i < colliders.Length; i++)
-                    //    {
-                    //        if (colliders[i].gameObject != gameObject)
-                    //        {
-                    //            //Debug.Log("Right Collision Detected");
-                    //        }
-                    //    }
-                    //}
-                }
             }
         }
 
