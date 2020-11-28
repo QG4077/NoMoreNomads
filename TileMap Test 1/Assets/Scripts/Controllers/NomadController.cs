@@ -30,16 +30,18 @@ namespace Nomads.Entities.Controllers{
                 {
                     if (FacingRight) //Move Right
                     {
-                        Vector3 targetVelocity = new Vector2(MoveSpeed * 10f, entity_RigidBody.velocity.y);
+                        Vector3 targetVelocity = new Vector2(MoveSpeed * NomadConstants.MOVEMENT_SPEED_FACTOR, entity_RigidBody.velocity.y);
                         entity_RigidBody.velocity = Vector2.SmoothDamp(entity_RigidBody.velocity, targetVelocity, ref CurrentVelocity, 1 / AccelerationSpeed);
                     }
                     else //Move Left
                     {
-                        Vector3 targetVelocity = new Vector2(-MoveSpeed * 10f, entity_RigidBody.velocity.y);
+                        Vector3 targetVelocity = new Vector2(-MoveSpeed * NomadConstants.MOVEMENT_SPEED_FACTOR, entity_RigidBody.velocity.y);
                         entity_RigidBody.velocity = Vector2.SmoothDamp(entity_RigidBody.velocity, targetVelocity, ref CurrentVelocity, 1 / AccelerationSpeed);
                     }
                 }
             }
+
+            Debug.Log(entity_RigidBody.velocity);
         }
 
         void OnCollisionEnter2D(Collision2D Coll)
@@ -62,10 +64,10 @@ namespace Nomads.Entities.Controllers{
                     Vector2 posToDelete = Vector2.zero;
 
                     if(Coll.otherCollider == RightCollider && FacingRight) {
-                        posToDelete = new Vector2(position.x + NomadConstants.TileDestroyDisplacement, position.y);
+                        posToDelete = new Vector2(position.x + NomadConstants.TILE_DESTROY_DISPLACEMENT, position.y);
                         }
                     else if(Coll.otherCollider == LeftCollider && !FacingRight) { 
-                        posToDelete = new Vector2(position.x - NomadConstants.TileDestroyDisplacement, position.y);
+                        posToDelete = new Vector2(position.x - NomadConstants.TILE_DESTROY_DISPLACEMENT, position.y);
                         }
                     else { Debug.Log("Bad collision on tile"); continue;}
 
