@@ -6,6 +6,10 @@ namespace Nomads.Entities.Constants
 {
     public static class NomadConstants
     {
-        public const float TileDestroyDisplacement = 0.1f;
+        //Constant distance measurements
+        public const float TILE_DESTROY_DISPLACEMENT = 0.1f;
+
+        //Constant movement values
+        public const float MOVEMENT_SPEED_FACTOR = 2f;
     }
 }
