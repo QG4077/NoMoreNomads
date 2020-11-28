@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Nomads.Entities.Constants;
 
 namespace Nomads.Entities.Controllers
 {
@@ -9,7 +10,7 @@ namespace Nomads.Entities.Controllers
     {
         [Header("Movement Variables")]
         [Range(0, 1)] [SerializeField] public float JumpForce = 1f;
-        [Range(0, 1)] [SerializeField] public float MoveSpeed = 1f;
+        [Range(0.15f, 1)] [SerializeField] public float MoveSpeed = 1f;
         [Range(1, 10)] [SerializeField] public float AccelerationSpeed = 1f;
         [SerializeField] public bool isAwake = true;
         [SerializeField] public bool FacingRight = true;
@@ -23,6 +24,7 @@ namespace Nomads.Entities.Controllers
         public Transform GroundTransform;
         public Transform CeilingTransform;
         public Collider2D RightCollider;
+        public Collider2D LeftCollider;
         public Tilemap LevelMap;
 
         [HideInInspector] public Vector2 CurrentVelocity = Vector2.zero;
