@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: 0
-  MoveSpeed: 0.05
+  MoveSpeed: 0.2
   AccelerationSpeed: 10
   isAwake: 1
   FacingRight: 1
@@ -196,9 +196,14 @@ MonoBehaviour:
   GroundTransform: {fileID: 5360374311319195331}
   CeilingTransform: {fileID: 5360374310835672391}
   RightCollider: {fileID: 5360374311686303651}
+  LeftCollider: {fileID: 0}
   LevelMap: {fileID: 0}
   CurrentVelocity: {x: 0, y: 0}
-  canDestroy: 0
+  collisionPoint: {fileID: 0}
+  transformedPoint: {fileID: 0}
+  CanTunnel: 1
+  canDig: 0
+  canClimb: 0
 --- !u!61 &5360374311686303649
 BoxCollider2D:
   m_ObjectHideFlags: 0
