@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 6cfbebd1360c9ed4e8e0012fd1b9d3f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8237547649935797988
+    second: Nomad_Walk_0
+  - first:
+      213: 8816117156035877388
+    second: NomadSpritesMain_1
+  - first:
+      213: 1181490853318357098
+    second: NomadSpritesMain_2
+  - first:
+      213: 3410351864999981992
+    second: NomadSpritesMain_3
+  - first:
+      213: 152143061638224252
+    second: Nomad_Walk_1
+  - first:
+      213: 159129217940686938
+    second: NomadSpritesMain_5
+  - first:
+      213: -4849068730747377616
+    second: Nomad_Walk_2
+  - first:
+      213: -340464561325577919
+    second: NomadSpritesMain_7
+  - first:
+      213: -9204612689833881048
+    second: Nomad_Walk_3
+  - first:
+      213: 3757554760315804455
+    second: NomadSpritesMain_9
+  - first:
+      213: 4623045300074129572
+    second: Nomad_Walk_4
+  - first:
+      213: -4013480005577833460
+    second: NomadSpritesMain_11
+  - first:
+      213: -4994159202714407715
+    second: Nomad_Walk_5
+  - first:
+      213: -952888523423533459
+    second: NomadSpritesMain_13
+  - first:
+      213: 3686713681496031838
+    second: Nomad_Fall_0
+  - first:
+      213: 5832265261220238159
+    second: Nomad_Fall_1
+  - first:
+      213: 7286102662345650635
+    second: Nomad_Fall_2
+  - first:
+      213: -5349122605347568777
+    second: Nomad_Fall_3
+  - first:
+      213: 7291667418167739367
+    second: NomadSpritesMain_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nomad_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3581
+        width: 292
+        height: 486
+      alignment: 9
+      pivot: {x: 0.36270258, y: 0.08107227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eee6c671f5a15270800000000000000
+      internalID: 8237547649935797988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 3579
+        width: 324
+        height: 482
+      alignment: 9
+      pivot: {x: 0.45147553, y: 0.08901205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c799cf7fe458c1200800000000000000
+      internalID: 152143061638224252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 3579
+        width: 300
+        height: 486
+      alignment: 9
+      pivot: {x: 0.25237793, y: 0.088994786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038295c4ea5a4bcb0800000000000000
+      internalID: -4849068730747377616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3581
+        width: 304
+        height: 480
+      alignment: 9
+      pivot: {x: 0.34810036, y: 0.084514365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8221667d685a24080800000000000000
+      internalID: -9204612689833881048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 3579
+        width: 326
+        height: 484
+      alignment: 9
+      pivot: {x: 0.4280493, y: 0.08691255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8257bd43b582040800000000000000
+      internalID: 4623045300074129572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 3579
+        width: 306
+        height: 486
+      alignment: 9
+      pivot: {x: 0.22623777, y: 0.08631426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddca5725aae21bab0800000000000000
+      internalID: -4994159202714407715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Fall_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3033
+        width: 350
+        height: 505
+      alignment: 9
+      pivot: {x: 0.505177, y: 0.0837881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52c42e6f86d92330800000000000000
+      internalID: 3686713681496031838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Fall_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2513
+        width: 340
+        height: 502
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.07769119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4312eaba5e50f050800000000000000
+      internalID: 5832265261220238159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Fall_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1989
+        width: 336
+        height: 496
+      alignment: 9
+      pivot: {x: 0.48921463, y: 0.08719512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1f32a94cf6d1560800000000000000
+      internalID: 7286102662345650635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad_Fall_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1451
+        width: 340
+        height: 504
+      alignment: 9
+      pivot: {x: 0.48058772, y: 0.08749099}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7730f30d45914c5b0800000000000000
+      internalID: -5349122605347568777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
