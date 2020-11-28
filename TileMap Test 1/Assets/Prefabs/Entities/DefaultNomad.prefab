@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1513730201115881623}
   - component: {fileID: 1513730201115881622}
   m_Layer: 0
-  m_Name: NomadL2R
+  m_Name: DefaultNomad
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182,9 +182,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.85}
+  m_Offset: {x: 0, y: -0.6}
   serializedVersion: 2
-  m_Radius: 0.41
+  m_Radius: 0.35
 --- !u!61 &1513730201115881623
 BoxCollider2D:
   m_ObjectHideFlags: 0
